@@ -9,7 +9,12 @@ A fork of m-Forgery that adds independent hacks for EACH license, A key requirem
 2. Add These Items to qb-core/shared/items.lua
 
 ['keyfrags'] 					 = {['name'] = 'keyfrags', 						['label'] = 'Broken Key Pieces', 				    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'keyfrags.png', 			    ['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Broke Key Pieces...Duh...'},
+
 ['forgerykey'] 					 = {['name'] = 'forgerykey', 						['label'] = 'Notary Office Key', 				    ['weight'] = 100, 		['type'] = 'item', 		['image'] = 'forgerykey.png', 			    ['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,   ['combinable'] = nil,   ['description'] = 'Key for the Notary Office '},
+
+['forgeryscript']                       = {['name'] = 'forgeryscript',                         ['label'] = 'Information Device',                 ['weight'] = 100,            ['type'] = 'item',         ['image'] = 'usb_device.png',              ['unique'] = false,         ['useable'] = false,     ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'Usb stick with information from the Forgery Office'},
+
+
 ['dirtybills'] 				 	= {['name'] = 'dirtybills', 			  	  	   ['label'] = 'Stolen Dollar Bill', 		['weight'] = 0, 		['type'] = 'item', 		['image'] = 'dirtybills.png', 			['unique'] = false, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Dollar per Dollar'},
 
 3. Add Images into inventory/html/images
